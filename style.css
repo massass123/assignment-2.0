@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+  font-family: "Ubuntu Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.quiz-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+  border: 0.2rem solid rgb(0, 0, 0);
+}
+.quiz-header {
+  padding: 0rem 4rem 4rem 4rem;
+}
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  font-size: 1.2rem;
+  margin: 1.4rem 0;
+}
+ul li label {
+  cursor: pointer;
+}
+button {
+  background-color: #03cae4;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 1.3rem;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #000000;
+}
+button:focus {
+  outline: none;
+  background-color: #44b927;
+}
+#progress-container {
+  height: 2rem;
+  width: 20rem;
+  border: 0.3rem solid rgb(0, 0, 0);
+  margin: 2rem 2rem 1rem 9rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+#progress-bar {
+  height: 1.4rem;
+  background-color: #03cae4;
+  width: 0%;
+  border-radius: 10px;
+}
+.homeButton {
+  background-color: #03cae4;
+  border: none;
+  width: 20%;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 0.4rem;
+  font-weight: bold;
+  height: 1rem;
+  border: 0.3rem solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
